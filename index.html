@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>UI_ASSIGNMENT</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="scoreUI">
+        <div id="quantScore" class="inputScoreSection">
+            <h3 class="internalHeading">Quant</h3>
+            <label for="currentQuantScore">
+                Current
+                <input type="number" id="currentQuantScore" min="1" max="60">
+            </label>
+            <label for="targetQuantScore">
+                Target
+                <input type="number" id="targetQuantScore" min="1" max="60">
+            </label>
+        </div>
+        <div id="verbalScore" class="inputScoreSection">
+            <h3 class="internalHeading">Verbal</h3>
+            <label for="currentVerbalScore">
+                Current
+                <input type="number" id="currentVerbalScore" min="1" max="60">
+            </label>
+            <label for="targetQuantScore">
+                Target
+                <input type="number" id="targetVerbalScore" min="1" max="60">
+            </label>
+        </div>
+
+        <div id="submitButton">
+            <button type="submit">Submit and Refresh</button>
+        </div>
+    </div>
+    
+</body>
+</html>
